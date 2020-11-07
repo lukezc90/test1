@@ -9,7 +9,7 @@ public class maxstring {
         int max_length = 0;
         String max_str = "";
         while (str.length() > 0) {
-            String first = str.substring(0, 1);
+            String first = str.substring(0, 1);//左闭右开[0,1)
             System.out.println(first);
             int length = str.length();
             str =  str.replaceAll(first, "");

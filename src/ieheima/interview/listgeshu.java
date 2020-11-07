@@ -17,14 +17,18 @@ public class listgeshu {
             }
         }
         //得到map中所有的键
-        Set<Integer> keyset=map.keySet();
-        //创建set集合的迭代器
-        Iterator<Integer> it=keyset.iterator();
-        while (it.hasNext()) {
-            Integer key=it.next();
-            Integer value=map.get(key);
-            System.out.println(key+"共有"+ value+"次 ");
+//        Set<Integer> keyset=map.keySet();
+//        //创建set集合的迭代器
+//        Iterator<Integer> it=keyset.iterator();
+//        while (it.hasNext()) {
+//            Integer key=it.next();
+//            Integer value=map.get(key);
+//            System.out.println(key+"共有"+ value+"次 ");
+//        }
+        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
+            Integer mapKey = entry.getKey();
+            Integer mapValue = entry.getValue();
+            System.out.println(mapKey+":"+mapValue+"次");
         }
-
     }
 }

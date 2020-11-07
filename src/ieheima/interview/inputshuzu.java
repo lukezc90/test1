@@ -11,6 +11,15 @@ public class inputshuzu {
             b[a] = scanner.nextInt();
 //            System.out.println(b[a]+"");
         }
+        for(int i=0;i<b.length-1;i++){
+            for(int j=0;j<b.length-i-1;j++){
+                if(b[j]>b[j+1]){
+                    int tmp = b[j];
+                    b[j]=b[j+1];
+                    b[j+1]=tmp;
+                }
+            }
+        }
         System.out.println(Arrays.toString(b));
 
     }
