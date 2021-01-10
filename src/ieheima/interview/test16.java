@@ -30,6 +30,9 @@ public class test16 {
         test16 test16 = new test16();
         System.out.println(test16.isPalindrome(12321));
 
+//        String str = "我爱Java 编程";
+//        String result = str.substring(3);
+//        System.out.println(result);    // 输出：Java 编程
     }
 }
 
