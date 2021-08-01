@@ -16,6 +16,7 @@ public class test4 {
         System.out.println(arr[19]);
         System.out.println(f(20));
 
+
     }
     public static int f(int n){
         if(n==1||n==2){

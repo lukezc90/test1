@@ -13,5 +13,9 @@ public class reverse {
         for(int j= i-1;j>=0;j--){
             System.out.print(str.charAt(j));
         }
+
+
+
+
     }
 }
