@@ -29,4 +29,23 @@ public class test12 {
             System.out.println(key+":"+value+"次");
         }
     }
+//    public static void main(String args[]){
+//        System.out.println("请输入：");
+//        Scanner sc = new Scanner(System.in);
+//        String str = sc.next();
+//        Map<String,Integer> map = new HashMap<String,Integer>();
+//        for(int i =0;i<str.length();i++){
+//            String substring = str.substring(i,i+1);
+//            if(map.get(i)==null){
+//                map.put(substring,1);
+//            }else {
+//                map.put(substring,map.get(i)+1);
+//            }
+//        }
+//        for(Map.Entry<String,Integer> m : map.entrySet()){
+//            String key = m.getKey();
+//            Integer value = m.getValue();
+//            System.out.println("key:"+ key + ","+"value:"+value);
+//        }
+//    }
 }
