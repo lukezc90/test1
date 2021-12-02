@@ -18,18 +18,18 @@ public class suanfa8 {
 //        }
 //        return head;
 //    }
-    public static Listnode li(Listnode head){
-        if(head == null){
-            return  null;
-        }
-        Listnode cur = head;
-        while(cur.next != null){
-            if(cur.value == cur.next.value){
-                cur.next = cur.next.next;
-            }else{
-                cur = cur.next;
-            }
-        }
-        return head;
-    }
+//    public static Listnode li(Listnode head){
+//        if(head == null){
+//            return  null;
+//        }
+//        Listnode cur = head;
+//        while(cur.next != null){
+//            if(cur.value == cur.next.value){
+//                cur.next = cur.next.next;
+//            }else{
+//                cur = cur.next;
+//            }
+//        }
+//        return head;
+//    }
 }
