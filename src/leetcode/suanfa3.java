@@ -6,7 +6,7 @@ import java.util.Arrays;
 https://leetcode-cn.com/problems/merge-sorted-array/solution/he-bing-liang-ge-you-xu-shu-zu-by-leetco-rrb0/
 
 
-
+合并2个有序数组同test17
 
  */
 public class suanfa3 {

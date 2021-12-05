@@ -1,35 +1,24 @@
 package leetcode;
-
+/*
+链表是否有环--快慢指针方法 同算法7
+ */
 
 import ieheima.interview.ListNode;
 
 public class suanfa8 {
-//    public ListNode denode(ListNode head){
-//        if(head == null){
-//            return head;
+//    public boolean hasCycle(ListNode head) {
+//        if (head == null || head.next == null) {
+//            return false;
 //        }
-//        ListNode cur = head;
-//        while(cur.next != null){
-//            if(cur.val == cur.next.next){
-//                cur.next = cur.next.next;
-//            }else {
-//                cur = cur.next;
+//        ListNode slow = head;
+//        ListNode fast = head.next;
+//        while (slow != fast) {
+//            if (fast == null || fast.next == null) {
+//                return false;
 //            }
+//            slow = slow.next;
+//            fast = fast.next.next;
 //        }
-//        return head;
-//    }
-//    public static Listnode li(Listnode head){
-//        if(head == null){
-//            return  null;
-//        }
-//        Listnode cur = head;
-//        while(cur.next != null){
-//            if(cur.value == cur.next.value){
-//                cur.next = cur.next.next;
-//            }else{
-//                cur = cur.next;
-//            }
-//        }
-//        return head;
+//        return true;
 //    }
 }

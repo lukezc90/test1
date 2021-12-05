@@ -3,7 +3,7 @@ package leetcode;
 /*
 https://leetcode-cn.com/problems/sqrtx/solution/x-de-ping-fang-gen-by-leetcode-solution/
 
-
+平方根
  */
 public class suanfa6 {
     public static int sqrt(int n){

@@ -8,6 +8,7 @@ import java.util.Set;
 
 /*
 https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode-solution/
+链表是否有环
 
  */
 public class suanfa7 {
