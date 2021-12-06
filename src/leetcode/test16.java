@@ -1,6 +1,7 @@
 package leetcode;
 /*
 https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-2-4/
+ 填充每个节点的下一个右侧节点指针
  */
 public class test16 {
 //    public Node connect(Node root) {
