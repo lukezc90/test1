@@ -12,11 +12,20 @@ f(i)=max{f(i−1)+nums[i],nums[i]}
  */
 
 public class test20 {
+//    public int maxSubArray(int[] num){
+//        int pre =0;
+//        int maxAns =num[0];
+//        for(int x : num){
+//            pre = Math.max(pre+x,x);
+//            maxAns = Math.max(maxAns,pre);
+//        }
+//        return maxAns;
+//    }
     public int maxSubArray(int[] num){
         int pre =0;
-        int maxAns =num[0];
+        int maxAns = num[0];
         for(int x : num){
-            pre = Math.max(pre+x,x);
+            pre = Math.max(pre+x,pre);
             maxAns = Math.max(maxAns,pre);
         }
         return maxAns;
